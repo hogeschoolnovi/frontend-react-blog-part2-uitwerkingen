@@ -1,0 +1,18 @@
+.header {
+    color: white;
+    background-color: var(--color-secondary);
+}
+
+.header img {
+    width: 500px;
+}
+
+.section-home-branding {
+    background-color: var(--color-secondary-light);
+    text-align: center;
+}
+
+.section-home-branding p {
+    font-size: 1.3em;
+    background-color: var(--color-secondary-light);
+}

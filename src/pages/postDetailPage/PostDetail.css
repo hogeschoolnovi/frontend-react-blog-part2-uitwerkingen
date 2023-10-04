@@ -1,0 +1,26 @@
+.post-detail-section {
+    min-height: 84vh;
+}
+
+.back-link,
+.post-detail-read-time {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 4px;
+    margin: 0;
+}
+
+.post-detail-read-time p {
+    font-size: 1em;
+    color: #50535C;
+}
+
+.post-detail-section h1,
+.post-detail-section h2 {
+    margin-block: 0.3em;
+}
+
+.post-detail-author {
+    margin-bottom: 0;
+}
