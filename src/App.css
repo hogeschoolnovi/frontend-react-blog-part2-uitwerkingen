@@ -30,42 +30,6 @@ Hij mag krimpen als het scherm minder breed wordt, maar niet groeien als er meer
   flex-direction: column;
 }
 
-.main-navigation {
-  background-color: var(--color-secondary);
-  padding: 16px 0;
-}
-
-.main-navigation a,
-.main-navigation a:visited {
-  color: white;
-  font-weight: 600;
-}
-
-.main-navigation a:hover {
-  color: var(--color-primary);
-}
-
-.inner-nav-container {
-  flex-basis: 1400px;
-  flex-shrink: 1;
-  flex-grow: 0;
-  /*We voegen margin toe aan de linker- en rechterkant, zodat de content nooit helemaal tegen de rand gedrukt kan worden*/
-  margin: 0 20px;
-  /*We zorgen er ook voor dat deze flex-item op haar beurt ook weer een flexbox container is, waarin alle children onder elkaar komen te staan*/
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.main-navigation-links {
-  list-style: none;
-  flex-basis: 350px;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-}
-
 .footer-navigation {
   background-color: var(--color-primary);
   color: var(--color-secondary);
